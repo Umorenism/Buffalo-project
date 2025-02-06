@@ -16,6 +16,7 @@ const Header= ({ desc,menubg, title, bgColor = 'bg-white', textColor = 'text-bla
   const toggleMenu = () => setIsOpen(!isOpen);
   const toggleMenuOpen = () => setMenuIsOpen(!isMenuOpen);
   const closeMenu = () => setMenuIsOpen(false);
+  const [ setShowMenu] = useState(true);
 
   const menuVariants = {
     hidden: { opacity: 0, y: -20 },
@@ -27,6 +28,10 @@ const Header= ({ desc,menubg, title, bgColor = 'bg-white', textColor = 'text-bla
     hidden: { opacity: 0, x: "100%" },
     visible: { opacity: 1, x: 0, transition: { duration: 0.4, ease: "easeOut" } },
     exit: { opacity: 0, x: "100%", transition: { duration: 0.3, ease: "easeIn" } },
+  };
+
+  const handleCloseMenu = () => {
+    setShowMenu(false);
   };
 
   return (
@@ -78,7 +83,7 @@ const Header= ({ desc,menubg, title, bgColor = 'bg-white', textColor = 'text-bla
                    
                   </div>
                   <div className="mt-2 p-2 flex">
-                    <HeaderMenu />
+                   <HeaderMenu handleClose={handleCloseMenu} />
                   </div>
                 </div>
               </motion.div>
