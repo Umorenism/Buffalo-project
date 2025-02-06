@@ -1,8 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import logo from "../assets/vec-tor.png"
-import log from '../assets/vector-logo.png';
-import logos from '../assets/vector-logo-sec.png';
+import logo from "../assets/Vec-tor.png"
+import log from '../assets/Vector-logo.png';
+import logos from '../assets/Vector-logo-sec.png';
 
 const WhoWeAre = () => {
   return (
