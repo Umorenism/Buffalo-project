@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import logo from "../../src/assets/vec-tor.png"
+// import logo from "../../src/assets/vec-tor.png"
 import log from '../../src/assets/vector-logo.png';
 import logos from '../../src/assets/vector-logo-sec.png';
 
@@ -38,8 +38,8 @@ const WhoWeAre = () => {
           </ul>
           <div className="mt-20 w-full">
             <div className="flex justify-between items-center">
-              <h1 className="text-4xl text-slate-400">#1</h1>
-              <img src={logo} alt="Real Estate" className="w-12 h-12 object-contain" />
+              {/* <h1 className="text-4xl text-slate-400">#1</h1>
+              <img src={logo} alt="Real Estate" className="w-12 h-12 object-contain" /> */}
             </div>
           </div>
         </motion.div>
