@@ -20,7 +20,7 @@ const Slider = () => {
   return (
     <>
    
-    <div className="relative w-full h-screen overflow-hidden">
+    <div className="relative w-full h-[510px] overflow-hidden">
      
       {/* Background Images */}
       {images.map((image, index) => (

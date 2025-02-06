@@ -61,11 +61,11 @@ const ProjectDes = () => {
               </div>
 
               {/* Image Section */}
-              <div>
+              <div className="w-full">
                 <img
                   src={pic} // Replace with your image URL
                   alt="Urban Landscape"
-                  className="w-full h-auto rounded-xl shadow-md object-cover"
+                  className="w-full  rounded-xl shadow-md object-cover"
                 />
               </div>
             </div>
@@ -77,7 +77,7 @@ const ProjectDes = () => {
                 <img
                   src={pic2} // Replace with your image URL
                   alt="Urban Landscape"
-                  className="w-full h-auto rounded-xl shadow-md object-cover"
+                  className="w-full  rounded-xl shadow-md object-cover"
                 />
               </div>
 
@@ -145,13 +145,13 @@ const ProjectDes = () => {
             </div>
           </div>
         </GlobalContainer>
-        <img
+      </div>
+      <img
           src={property}
           alt=""
-          className="w-full h-[783px] mt-4 object-cover bg-center"
+          className="w-full h-[543px] mt-4 object-cover bg-center"
         />
-        <Location/>
-      </div>
+      <Location/>
       
     </>
   );
