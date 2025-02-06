@@ -6,7 +6,7 @@ import pic2 from "../../src/assets/pro.png";
 import vec1 from "../../src/assets/f-vector.png";
 import property from "../../src/assets/propertfull.png";
 import Location from "../component/Location";
-import Mail from "../component/Mail";
+
 import Slider from "../component/Slider";
 
 const ProjectDes = () => {
@@ -152,7 +152,7 @@ const ProjectDes = () => {
         />
         <Location/>
       </div>
-      <Mail/>
+      
     </>
   );
 };
