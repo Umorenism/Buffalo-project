@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import logo from "../../src/assets/vec.png"
+import logo from "../../src/assets/vec-tor.png"
 import log from '../../src/assets/vector-logo.png';
 import logos from '../../src/assets/vector-logo-sec.png';
 
