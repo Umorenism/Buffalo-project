@@ -1,9 +1,9 @@
 import React from "react";
 
 import GlobalContainer from "../component/Container";
-import pic from "../../src/assets/np.png";
-import pic2 from "../../src/assets/pro.png";
-import vec1 from "../../src/assets/f-vector.png";
+import pic from "../assets/np.png";
+import pic2 from "../assets/pro.png";
+import vec1 from "../assets/f-vector.png";
 import property from "../../src/assets/propertfull.png";
 import Location from "../component/Location";
 

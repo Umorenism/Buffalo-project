@@ -1,8 +1,8 @@
 
 
 import React, { useEffect, useState } from "react";
-import picImage from "../../src/assets/aboutimg.png";
-import openImage from "../../src/assets/open.png";
+import picImage from "../assets/aboutimg.png";
+import openImage from "../assets/open.png";
 import { motion } from "framer-motion";
 const AboutFlow = () => {
   const counters = [26, 400, 23, 61000, 3];

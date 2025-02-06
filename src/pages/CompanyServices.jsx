@@ -1,6 +1,6 @@
 import React from "react";
-import openHouse from "../../src/assets/open.png";
-import pics from "../../src/assets/step.png";
+import openHouse from "../assets/open.png";
+import pics from "../assets/step.png";
 import { FaArrowRight } from "react-icons/fa";
 import { motion } from "framer-motion";
 const CompanyServices = () => {

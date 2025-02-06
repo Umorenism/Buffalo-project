@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import pic1 from '../../src/assets/property-1.png';
-import pic2 from '../../src/assets/property-4.png';
-import pic3 from '../../src/assets/property-3.png';
-import pic4 from '../../src/assets/property-4.png';
+import pic1 from '../assets/property-1.png';
+import pic2 from '../assets/property-4.png';
+import pic3 from '../assets/property-3.png';
+import pic4 from '../assets/property-4.png';
 
 
 const images = [pic1, pic2, pic3, pic4];

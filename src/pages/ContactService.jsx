@@ -1,6 +1,6 @@
 import React from "react";
-import pic from "../../src/assets/contact.png";
-import pic2 from "../../src/assets/call.png";
+import pic from "../assets/contact.png";
+import pic2 from "../assets/call.png";
 
 const ContactService = () => {
   return (

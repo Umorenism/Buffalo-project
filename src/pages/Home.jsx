@@ -6,7 +6,7 @@ import Service from './Service';
 import WhoWeAre from './WhoWeAre';
 import Choose from './Choose';
 import Progress from './Progress';
-import heroPic from '../../src/assets/heroImg.png'
+import heroPic from '../assets/heroImg.png'
 
 const HomePage = () => {
   const homeRef = useRef(null);

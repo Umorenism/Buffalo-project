@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { TbMenu } from "react-icons/tb";
 import { IoMdClose } from "react-icons/io";
 import HeaderMenu from "./HeaderMenu";
-import logo from '../../src/assets/Group 1.png';
+import logo from '../assets/Group 1.png';
 
 
 

@@ -1,5 +1,5 @@
 import React from "react";
-import piv from '../../src/assets/mail.png'
+import piv from '../assets/mail.png'
 import Contact from "../pages/Contact";
 const Mail = () => {
   return (

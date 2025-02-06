@@ -1,8 +1,8 @@
 import React from 'react';
-import pic from '../../src/assets/treeHus.png';
-import pic2 from '../../src/assets/hot.png';
-import pic3 from '../../src/assets/open.png';
-import pic4 from '../../src/assets/mail.png';
+import pic from '../assets/treeHus.png';
+import pic2 from '../assets/hot.png';
+import pic3 from '../assets/open.png';
+import pic4 from '../assets/mail.png';
 import { FaArrowRight } from "react-icons/fa";
 
 const ProjectWork = () => {

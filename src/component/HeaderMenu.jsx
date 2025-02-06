@@ -1,6 +1,6 @@
 import React from 'react';
-import pic from '../../src/assets/menupic.png'
-import pic2 from '../../src/assets/Frame 177.png'
+import pic from '../assets/menupic.png'
+import pic2 from '../assets/Frame 177.png'
 import { Link } from 'react-router-dom';
 
 
