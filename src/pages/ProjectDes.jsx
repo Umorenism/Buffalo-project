@@ -4,7 +4,7 @@ import GlobalContainer from "../component/Container";
 import pic from "../assets/np.png";
 import pic2 from "../assets/pro.png";
 import vec1 from "../assets/f-vector.png";
-import property from "../../src/assets/propertfull.png";
+import property from "../../src/assets/location.png";
 import Location from "../component/Location";
 
 import Slider from "../component/Slider";
@@ -149,7 +149,7 @@ const ProjectDes = () => {
       <img
           src={property}
           alt=""
-          className="w-full h-[543px] mt-4 object-cover bg-center"
+          className="w-full h-[543px] mt-4 object-cover bg-center brightness-125"
         />
       <Location/>
       
