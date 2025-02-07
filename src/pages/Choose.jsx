@@ -18,9 +18,9 @@ const Choose = () => {
         />
 
         {/* Overlay Content */}
-        <div className="absolute  inset-0 bg-black/55 bg-opacity-60 flex flex-col justify-center items-start text-white p-4 md:p-8">
+        <div className="absolute inset-0 bg-black/55 bg-opacity-60 flex flex-col justify-center  text-white p-4 md:p-8">
           <motion.h1
-            className="text-2xl mt-20 text-center md:text-start md:text-4xl font-bold mb-2 w-full"
+            className="text-2xl md:mt-10 flex text-center items-center md:text-start md:text-4xl mt-5 font-bold md:mb-2 w-full"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1, delay: 0.2 }}
@@ -29,7 +29,7 @@ const Choose = () => {
           </motion.h1>
 
           <motion.div
-            className="w-full  grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 p-5"
+            className="w-full h-auto  grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 md:gap-6 gap-1 p-5"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1, delay: 0.4 }}
@@ -49,7 +49,7 @@ const Choose = () => {
               >
                 <img src={item.img} alt="icon" className="h-8 w-8 object-contain mb-1" />
                 <p className="font-semibold text-center text-lg mb-1">{item.title}</p>
-                <h2 className="text-sm mb-1 text-center text-gray-300">{item.desc}</h2>
+                <h2 className="text-sm  text-center text-gray-300">{item.desc}</h2>
               </motion.div>
             ))}
           </motion.div>
