@@ -106,7 +106,7 @@ const App = () => {
             }
           />
         </Routes>
-        <Contact />
+         <Contact /> 
         <Footer />
       </Router>
     </>

@@ -6,7 +6,7 @@ import pic3 from '../assets/rag.png'
 
 const Progress = () => {
   return (
-    <div className="flex flex-col justify-center items-center mt-10 md:mt-24 p-4 w-full">
+    <div className="flex flex-col min-h-screen justify-center items-center mt-10 md:mt-24 p-4 w-full">
       {/* Progress bar container */}
       <motion.h1 
         className="text-3xl font-serif mb-4 text-[#6D142A]"

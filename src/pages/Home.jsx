@@ -51,23 +51,20 @@ const HomePage = () => {
         <About />
       </div>
 
-      <div ref={servicesRef} >
+       <div ref={servicesRef} >
         <Service />
-      </div>
+      </div> 
 
-      <div ref={whoRef} >
+       <div ref={whoRef} >
         <WhoWeAre />
-      </div>
+      </div> 
       
-      <div ref={chooseRef} >
+       <div ref={chooseRef} >
         <Choose/>
-      </div> 
-      <div ref={progressRef} >
+      </div>  
+    <div ref={progressRef} >
         <Progress/>
-      </div> 
-      {/* <div ref={progressRef} >
-        <Contact/>
-      </div>  */}
+      </div>   
     </div>
   );
 };

@@ -45,7 +45,7 @@ const ProjectDes = () => {
           </div>
 
           {/* card1 */}
-          <div className="py-8 px-4 mt-24 md:px-16 lg:px-24">
+          <div className="py-8 w-full px-4 mt-24 md:px-16 lg:px-24">
             <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
               {/* Text Section */}
               <div>
@@ -77,7 +77,7 @@ const ProjectDes = () => {
                 <img
                   src={pic2} // Replace with your image URL
                   alt="Urban Landscape"
-                  className="w-full  rounded-xl shadow-md object-cover"
+                  className="w-full rounded-xl shadow-md object-cover"
                 />
               </div>
 

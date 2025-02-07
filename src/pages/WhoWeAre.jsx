@@ -6,7 +6,7 @@ import logos from '../assets/Vector-logo-sec.png';
 
 const WhoWeAre = () => {
   return (
-    <div className="flex flex-col justify-center items-center mt-20 p-4">
+    <div className="flex min-h-screen flex-col justify-center items-center mt-20 p-4">
       <motion.h1
         className="text-3xl text-[#6D142A] font-serif text-start max-w-6xl w-full mb-5"
         initial={{ opacity: 0 }}
@@ -17,7 +17,7 @@ const WhoWeAre = () => {
       </motion.h1>
       
       <motion.div
-        className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full max-w-6xl"
+        className="grid grid-cols-1  md:grid-cols-3 gap-8 w-full max-w-6xl"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1, delay: 0.2 }}

@@ -5,9 +5,9 @@ import pic2 from '../assets/tie.png';
 
 const Choose = () => {
   return (
-    <div className="relative flex justify-center items-center mt-10 md:mt-24 p-4">
+    <div className="relative bg-white min-h-screen flex justify-center items-center mt-20 md:mt-10 md:p-2">
       {/* Background Image with Overlay */}
-      <div className="relative w-full max-w-7xl">
+      <div className="relative w-full h-screen md:h-[600px] md:max-w-[1100px]">
         <motion.img
           src="https://s3-alpha-sig.figma.com/img/1d20/e6f8/34848f34408e556f687ea6017806d453?Expires=1739750400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Fp6wPqFuDZoEgc3hu~Vf1jsUle8uY~r48x5TjEjZzTgyEa5BLLTfqefXCqtyy-~b5Cep6EBL0lwPqPDqtWGhkv7dOi2P7la553MnPBauk-57sZeTfcoJZi0MRKYsnM9WkcsYeDARY1dvNQ88gIm4CbEqiF-s8FjBWSCHkx5cTNkYbMWTX2xTQWiIhGEwf-2VzvLGLqj-F4jp2rbo4OaHZ9cN6jIb8F46bs2qC0YZ4nUjKNAtEFwtH5abnkd4x6vwkPJpT27MwWrJaI6Vw5gZf1u5c~svpnF1YQm5wdGYOzI0GpkokXp88jhmw9NT2q8lVGJZHLRBsggEtlmcakfAiw__"
           alt="logo"
@@ -18,9 +18,9 @@ const Choose = () => {
         />
 
         {/* Overlay Content */}
-        <div className="absolute inset-0 bg-black/55 bg-opacity-60 flex flex-col justify-center items-start text-white p-4 md:p-8">
+        <div className="absolute  inset-0 bg-black/55 bg-opacity-60 flex flex-col justify-center items-start text-white p-4 md:p-8">
           <motion.h1
-            className="text-2xl md:text-4xl font-bold mb-4"
+            className="text-2xl mt-20 text-center md:text-start md:text-4xl font-bold mb-2 w-full"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1, delay: 0.2 }}
@@ -29,7 +29,7 @@ const Choose = () => {
           </motion.h1>
 
           <motion.div
-            className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 p-5"
+            className="w-full  grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 p-5"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1, delay: 0.4 }}

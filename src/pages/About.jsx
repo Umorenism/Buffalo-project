@@ -32,13 +32,15 @@ const About = () => {
       className="w-full p-8  rounded-t-[100px] flex items-center justify-center min-h-[800px] flex-col overflow-hidden"
     >
       <div className="max-w-[1300px]  rounded-t-2xl w-full gap-10">
-        <h2 className="text-4xl font-bold text-center mb-6">About Us</h2>
+        <h2 className="text-4xl font-bold text-center hidden md:block mb-6">About Us</h2>
         
         <div className="flex flex-col-reverse md:flex-row items-center justify-center gap-10">
           {/* Left Side: Who We Are */}
           <motion.div variants={itemVariants} className="bg-white p-6 w-full md:w-1/2">
-            <div className="h-20 w-20 text-center mb-10 border border-[#6D142a] rounded-full text-[#6D142a] flex items-center justify-center">
+            <div className="w-full ">
+            <div className="h-20 w-20  text-center mb-10 border border-[#6D142a] rounded-full text-[#6D142a] flex items-center justify-center">
               <FaUserTie size={30} />
+            </div>
             </div>
             <h3 className="text-2xl text-[#6D142a] font-semibold">Who We Are</h3>
             <p className="h-1 w-5 bg-orange-400"></p>
@@ -88,7 +90,7 @@ const About = () => {
         </div>
       </div>
       
-      <h1 className="text-[#6D142a] text-5xl font-bold text-center mt-10">We’re committed to Excellence!</h1>
+      <h1 className="text-[#6D142a] md:text-5xl text-2xl font-bold text-center mt-10">We’re committed to Excellence!</h1>
     </motion.div>
   );
 };
