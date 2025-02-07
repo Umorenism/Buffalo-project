@@ -36,7 +36,7 @@ const Location = () => {
                 Google Map
                 <IoCopyOutline className="text-white" />
                 <span className="ml-2">
-                  {copied ? "Copied!" : "Copy Address"}
+                  {copied ? "Copied!" : ""}
                 </span>
               </button>
             </div>

@@ -72,10 +72,10 @@ const Header= ({ desc,menubg, title, bgColor = 'bg-white', textColor = 'text-bla
                 <div className="bg-slate-100 w-[90%] rounded-md">
                   <div className="flex justify-between items-center">
                     <div className="text-xl md:text-4xl font-bold text-black flex items-center gap-2">
-                      <img src={logo} alt="logo" className="h-10 w-10 object-contain" />
+                      <img src={logo} alt="logo" className="md:h-10 md:w-10 h-5 w-5 object-contain" />
                       <div className="flex flex-col items-center">
                         <Link to="/">
-                        <h1 className="uppercase font-serif text-2xl">Buffalo & BAY</h1>
+                        <h1 className="uppercase font-serif md:text-2xl text-sm">Buffalo & BAY</h1>
                         <p className="text-sm">STRENGTH AND SPLENDOR</p>
                         </Link>
                       </div>

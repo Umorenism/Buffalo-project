@@ -1,11 +1,11 @@
 import React from "react";
 import piv from '../assets/mail.png'
-import Contact from "../pages/Contact";
+
 const Mail = () => {
   return (
     <div className="w-full p-4 flex flex-col items-center">
       <div
-        className="w-[1730px] flex items-center justify-center h-[743px] top-[4235px] text-center "
+        className="w-[1730px] flex items-center justify-center h-[543px] top-[4235px] text-center "
       >
        <div className="max-w-sm  overflow-hidden  bg-white">
       
@@ -29,9 +29,8 @@ const Mail = () => {
         className="md:w-[558px] w-full h-[400px] object-cover"
       />
     </div>
-      </div>
-      <Contact/>
-    </div>
+     </div>
+     </div>
   );
 };
 
