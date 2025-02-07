@@ -28,12 +28,12 @@ const AboutFlow = () => {
   return (
     <div>
       <div
-        className="relative bg-cover bg-center h-screen"
+        className="relative overflow-x-hidden bg-cover bg-center h-screen"
         style={{ backgroundImage: `url(${picImage})` }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
           <div className="text-center text-white p-6 max-w-lg">
-            <h1 className="text-4xl font-bold mb-4">About Us</h1>
+           
           </div>
         </div>
       </div>
