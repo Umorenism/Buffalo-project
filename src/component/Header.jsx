@@ -125,6 +125,9 @@ const Header= ({ desc,menubg, title, bgColor = 'bg-white', textColor = 'text-bla
                 Contact
               </Link>
             </div>
+            <div className="flex items-center justify-center w-full mt-5">
+              <img src={logo} alt="" />
+            </div>
           </motion.nav>
         )}
       </AnimatePresence>
