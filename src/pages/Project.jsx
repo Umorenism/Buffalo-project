@@ -28,7 +28,7 @@ const ProjectWork = () => {
           <img 
             src={pic} 
             alt='Project Image' 
-            className='w-full  md:max-w-md h-auto object-cover shadow-lg rounded-lg'
+            className='w-full  md:max-w-4xl h-auto object-cover shadow-lg rounded-lg'
           />
         </div>
       </div>
@@ -50,7 +50,7 @@ const ProjectWork = () => {
           <img 
             src={pic2} 
             alt='Project Image' 
-            className='w-full  md:max-w-xl h-auto object-cover shadow-lg rounded-lg'
+            className='w-full  md:max-w-4xl h-auto object-cover shadow-lg rounded-lg'
           />
         </div>
       </div>
@@ -72,7 +72,7 @@ const ProjectWork = () => {
           <img 
             src={pic3} 
             alt='Project Image' 
-            className='w-full  md:max-w-md h-auto object-cover shadow-lg rounded-lg'
+            className='w-full  md:max-w-4xl h-auto object-cover shadow-lg rounded-lg'
           />
         </div>
       </div>
@@ -94,7 +94,7 @@ const ProjectWork = () => {
           <img 
             src={pic4} 
             alt='Project Image' 
-            className='w-full max-w-sm md:max-w-md h-auto object-cover shadow-lg rounded-lg'
+            className='w-full  md:max-w-4xl h-auto object-cover shadow-lg rounded-lg'
           />
         </div>
       </div>
