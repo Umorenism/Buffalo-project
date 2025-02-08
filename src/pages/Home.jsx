@@ -21,7 +21,7 @@ const HomePage = () => {
   };
 
   return (
-    <div className="min-h-screen  flex flex-col w-full">
+    <div className="min-h-screen relative  flex flex-col w-full">
       <div
         ref={homeRef}
         className=" bg-cover h-screen bg-center relative"
@@ -35,7 +35,7 @@ const HomePage = () => {
             Buffalo <span className="text-[#ECB35C]">&</span> Bay Ltd
           </h1>
           <p className="text-lg mb-6">Building the future, one project at a time</p>
-          <div className="absolute bottom-10 flex flex-col items-center">
+          <div className="absolute bottom-32 flex flex-col items-center">
             <button
               onClick={() => handleScroll(aboutRef)} // Scrolls to About section
               className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
@@ -45,11 +45,13 @@ const HomePage = () => {
             <p onClick={() => handleScroll(aboutRef)} className="h-10 w-5 rounded-lg border"></p>
           </div>
         </div>
+
+       
       </div>
 
-      <div  ref={aboutRef} >
-        <About />
-      </div>
+       <div className=' relative bg-slate-100  w-full rounded-t-[50px] z-10 -mt-[100px] pt-20 flex-col flex items-center justify-center' ref={aboutRef} >
+        <About /> 
+      </div> 
 
        <div ref={servicesRef} >
         <Service />

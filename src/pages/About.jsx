@@ -29,14 +29,14 @@ const About = () => {
       whileInView="visible"
       viewport={{ once: true, amount: 0.3 }}
       variants={containerVariants} 
-      className="w-full p-8  rounded-t-[100px] flex items-center justify-center min-h-[800px] flex-col overflow-hidden"
+      className="w-full p-8  flex items-center  justify-center min-h-[800px] flex-col overflow-hidden"
     >
       <div className="max-w-[1300px]  rounded-t-2xl w-full gap-10">
         <h2 className="text-4xl font-bold text-center hidden md:block mb-6">About Us</h2>
         
         <div className="flex flex-col-reverse md:flex-row items-center justify-center gap-10">
           {/* Left Side: Who We Are */}
-          <motion.div variants={itemVariants} className="bg-white p-6 w-full md:w-1/2">
+          <motion.div variants={itemVariants} className=" p-6 w-full md:w-1/2">
             <div className="w-full ">
             <div className="h-20 w-20  text-center mb-10 border border-[#6D142a] rounded-full text-[#6D142a] flex items-center justify-center">
               <FaUserTie size={30} />
@@ -53,7 +53,7 @@ const About = () => {
           </motion.div>
           
           {/* Right Side: Stats */}
-          <motion.div variants={itemVariants} className="bg-white p-6 w-full md:w-1/2">
+          <motion.div variants={itemVariants} className=" p-6 w-full md:w-1/2">
             {/* Stats Row 1 */}
             <div className="flex items-center gap-10 mb-10">
               <div className="flex flex-col items-center">
