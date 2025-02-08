@@ -29,8 +29,8 @@ const Progress = () => {
             animate={{ opacity: 1 }} 
             transition={{ delay: 0.2, duration: 1 }}
           >
-            <div className="bg-orange-300 mt-3 text-white rounded-full w-4 h-4 flex items-center justify-center" />
-            <span className=" text-xl">Step 01</span>
+            <div className="bg-orange-300 md:flex hidden mt-3 text-white rounded-full w-4 h-4  items-center justify-center" />
+            <span className=" text-xl hidden md:flex">Step 01</span>
           </motion.div>
 
           {/* Step 2 */}
@@ -40,8 +40,8 @@ const Progress = () => {
             animate={{ opacity: 1 }} 
             transition={{ delay: 0.4, duration: 1 }}
           >
-            <div className="bg-orange-300 border border-orange-500 mt-3 text-white rounded-full w-4 h-4 flex items-center justify-center" />
-            <span className=" text-xl">Step 02</span>
+            <div className="bg-orange-300 md:flex border border-orange-500 mt-3 text-white rounded-full w-4 h-4 hidden items-center justify-center" />
+            <span className="hidden md:flex text-xl">Step 02</span>
           </motion.div>
 
           {/* Step 3 */}
@@ -51,8 +51,8 @@ const Progress = () => {
             animate={{ opacity: 1 }} 
             transition={{ delay: 0.6, duration: 1 }}
           >
-            <div className="bg-orange-300 mt-3 text-gray-500 rounded-full w-4 h-4 flex items-center justify-center" />
-            <span className=" text-xl">Step 03</span>
+            <div className="bg-orange-300 md:flex mt-3 text-gray-500 rounded-full w-4 h-4 hidden items-center justify-center" />
+            <span className="hidden md:flex text-xl">Step 03</span>
           </motion.div>
 
           {/* Step 4 */}
@@ -62,8 +62,8 @@ const Progress = () => {
             animate={{ opacity: 1 }} 
             transition={{ delay: 0.8, duration: 1 }}
           >
-            <div className="bg-orange-300 mt-3 text-white rounded-full w-4 h-4 flex items-center justify-center" />
-            <span className=" text-xl">Step 04</span>
+            <div className="bg-orange-300 md:flex mt-3 text-white rounded-full w-4 h-4 hidden items-center justify-center" />
+            <span className="hidden md:flex text-xl">Step 04</span>
           </motion.div>
         </div>
       </div>
