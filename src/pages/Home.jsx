@@ -45,8 +45,6 @@ const HomePage = () => {
             <p onClick={() => handleScroll(aboutRef)} className="h-10 w-5 rounded-lg border"></p>
           </div>
         </div>
-
-       
       </div>
 
        <div className=' relative bg-slate-100  w-full rounded-t-[50px] z-10 -mt-[100px] pt-20 flex-col flex items-center justify-center' ref={aboutRef} >
