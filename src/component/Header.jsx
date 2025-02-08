@@ -9,7 +9,7 @@ import logo from '../assets/Group 1.png';
 
 
 
-const Header= ({ desc,menubg, title, bgColor = 'bg-white', textColor = 'text-black' }) => {
+const Header= ({ desc,menubg, title='white', bgColor = 'bg-white', textColor = 'text-black' }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [isMenuOpen, setMenuIsOpen] = useState(false);
 
@@ -41,8 +41,8 @@ const Header= ({ desc,menubg, title, bgColor = 'bg-white', textColor = 'text-bla
           <Link to="/" className="flex items-center">
           <img src={logo} alt="logo" className="h-10 w-10 object-contain" />
           <div className="flex flex-col items-center">
-            <h1 className="uppercase font-serif text-2xl">{title}</h1>
-            <p className="text-sm">{desc}</p>
+            <h1 className="uppercase text-sm font-serif md:text-2xl">{title}</h1>
+            <p  className={`text-sm text-[#6D142a] `}>{desc}</p>
           </div>
           </Link>
         </div>
@@ -76,7 +76,7 @@ const Header= ({ desc,menubg, title, bgColor = 'bg-white', textColor = 'text-bla
                       <div className="flex flex-col items-center">
                         <Link to="/">
                         <h1 className="uppercase font-serif md:text-2xl text-sm">Buffalo & BAY</h1>
-                        <p className="text-sm">STRENGTH AND SPLENDOR</p>
+                        <p className="text-sm text-[#6D142a]">STRENGTH AND SPLENDOR</p>
                         </Link>
                       </div>
                     </div>
@@ -91,7 +91,7 @@ const Header= ({ desc,menubg, title, bgColor = 'bg-white', textColor = 'text-bla
           </AnimatePresence>
         </nav>
 
-        <button className="md:hidden" onClick={toggleMenu}>
+        <button className="md:hidden bg-[#6D142a] text-white p-2" onClick={toggleMenu}>
           {isOpen ? <IoMdClose size={28} /> : <TbMenu size={28} />}
         </button>
       </div>
@@ -105,7 +105,7 @@ const Header= ({ desc,menubg, title, bgColor = 'bg-white', textColor = 'text-bla
             variants={mobileMenuVariants}
             className="fixed inset-0 bg-white text-black shadow-lg md:hidden z-50"
           >
-            <div className="flex justify-center items-center mt-20 p-4">
+            <div className="flex justify-center  items-center mt-20 p-4">
               {isMenuOpen ? <IoMdClose size={28} onClick={toggleMenu} className="cursor-pointer" />:<IoMdClose size={28} onClick={toggleMenu} className="cursor-pointer" />}
             </div>
             <div className="flex flex-col items-center p-4 space-y-4">
